@@ -15,7 +15,6 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-// Ajout de gestionnaire d'erreur
 app.on('error', (err) => {
     console.error('Express error:', err);
 });

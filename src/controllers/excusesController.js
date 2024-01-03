@@ -1,4 +1,3 @@
-// src/controllers/excusesController.js
 const excuses = require('../data');
 
 exports.listExcuses = (req, res) => {
