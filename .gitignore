@@ -1,0 +1,17 @@
+.env
+
+node_modules/
+
+logs/
+*.log
+
+*.bak
+
+/build/
+
+
+coverage/
+.nyc_output/
+
+.DS_Store
+Thumbs.db
