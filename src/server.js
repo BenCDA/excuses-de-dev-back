@@ -1,13 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const excusesRoutes = require('./routes/excuses');
+const excusesRouter = require('./routes/excuses');
 const cors = require('cors');
 const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use('/excuses', excusesRoutes);
+app.use('/excuses', excusesRouter);
 
 const PORT = process.env.PORT || 3001;
 
