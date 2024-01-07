@@ -20,3 +20,5 @@ exports.getExcuseByHttpCode = (req, res) => {
         res.status(404).json({error: 'Excuse non trouvée'});
     }
 };
+
+
